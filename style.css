@@ -1,0 +1,203 @@
+body{
+    font-family: sans-sefif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display:flex;
+    background-color: white;
+    min-height:70px;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+}
+
+.logo{
+    display:flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+}
+
+nav a{
+    font-family: "Rosarivo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: #235035
+
+}
+
+@media (max-width: 700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+
+.lern {
+  background-color: #3b4f0e; /* verde oscuro como el de la imagen */
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-family: "Rosarivo", cursive;
+  cursor: pointer;
+}
+
+.lern:hover {
+  background-color: #485C11;
+}
+
+h1{
+    text-align: center;
+    font-family: "Rosarivo", cursive;
+    font-size: 60px;
+    font-weight: 400;
+    font-style: normal;
+    padding-right: 5px;
+    height: 80vh;   
+}
+
+.contenedor{
+    position: relative;
+    bottom: 500px;
+    right: -115px;
+    margin: 0px;
+    padding: 0%;
+}
+
+.paisaje{
+    position: relative;
+    bottom: 1050px;
+    right: -195px;
+    padding: 0%;
+    margin: 0px;
+}
+
+.contenedorcuu{
+    width: 300px;
+    height: 300px;
+    
+
+    
+}
+
+.WORLD{
+    position: relative;
+    color: #3b4f0e;
+    font-family: "Rosarivo", cursive;
+    font-style: normal;
+    padding-right: 10px;
+    font-size: 32px;
+    font-weight: 400;
+    bottom: 450px;
+    right: 35px;
+
+}
+
+.ELI{
+    position: relative;
+    color:black;
+    font-family: "Rosarivo", cursive;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 400;
+    bottom: 480px;
+    right: 35px;
+
+}
+
+.bloque{
+    position:relative;
+    display: inline-flex;
+    background-color: whitesmoke;
+
+    height: 50vh;
+    margin: 5%;
+    bottom: 520px;
+    right: 35px;  
+}
+
+.contenedorcuu h2{
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.contenedorcuu p{
+    margin:0;
+    color:#666; 
+    font-family: "Rosarivo", cursive;
+    
+}
+ 
+.fondo2{
+    position: relative;
+    bottom: 1150px;
+    left: 90px;
+}
+
+.mont{
+    position: relative;
+    bottom: 1700px;
+    left: 145px;
+}
+
+.ultima{
+    position: relative;
+    color:black;
+    font-family: "Rosarivo", cursive;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 400;
+    bottom: 1675px;
+    left: 330px;
+}
+
+.mapa{
+    position: relative;
+    width: 600;
+    height: 400;
+    bottom: 1600px;
+    left: 570px;
+
+}
+
+.footer{
+    position: relative;
+    color:black;
+    font-family: "Rosarivo", cursive;
+    font-style: normal;
+    font-size: 42px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.fbutton{
+  position: relative;
+  background-color: #3b4f0e; /* verde oscuro como el de la imagen */
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 30px;
+  font-family: "Rosarivo", cursive;
+  cursor: pointer;
+  left: 675px;
+}
+
+.fbutton:hover {
+  background-color: #485C11;
+}
